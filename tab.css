@@ -1,0 +1,37 @@
+@media (min-width: 601px) and (max-width: 1024px) {
+  .main-Services {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header img {
+    width: 65%;
+    height: 60vh;
+  }
+  #Services {
+    margin-top: -23rem;
+
+    width: 60vh;
+    padding-top: 2rem;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .team {
+    width: 100%;
+  }
+  .team img {
+    height: 30vh;
+    width: 10vh;
+    margin: 1rem;
+  }
+  .work {
+    margin-top: -9rem;
+  }
+  #About {
+    margin-top: -7rem;
+  }
+  .contact {
+    margin-top: -29rem;
+  }
+}

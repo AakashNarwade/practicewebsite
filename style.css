@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP&family=Roboto&display=swap");
+/*font-family: 'Lobster', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+/* #429bf5 */
+/* #42b3f5 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background: white;
+  padding: 0.7rem;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo {
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+}
+
+.nav-span {
+  color: #42b3f5;
+}
+
+.nav-ul {
+  display: flex;
+  list-style: none;
+  /* align-items: center; */
+}
+
+.nav-ul li a {
+  font-family: "Roboto", sans-serif;
+  /* display: flex; */
+  text-decoration: none;
+  padding: 1rem;
+  color: black;
+}
+.nav-ul li a:hover {
+  border-bottom: 0.1rem solid #42b3f5;
+  color: #42b3f5;
+}
+
+.header {
+  height: 100vh;
+}
+
+img {
+  width: 65%;
+  background-size: cover;
+  background-position: center;
+  text-align: right;
+}
+
+.header-div {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: left; */
+  padding-left: 2.5rem;
+  /* margin-left: 2rem; */
+}
+
+.btn {
+  font-family: "Noto Sans JP", sans-serif;
+  width: 8rem;
+  padding: 1rem;
+  border-radius: 60px;
+  border: none;
+  background-color: #42b3f5;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+.main-services {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-p {
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.2rem;
+  /* margin-bottom: 1rem; */
+  color: #42b3f5;
+}
+
+.services-h1 {
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.cards {
+  padding: 2rem;
+  text-align: center;
+  margin: 0.7rem;
+  margin-top: 1rem;
+  height: 50vh;
+  /* display: flex; */
+  justify-content: space-between;
+  border: 1.5px solid #c2bdc7;
+}
+
+.cards:hover {
+  border: 3px solid#42b3f5;
+}
+.cards i {
+  margin-top: 1rem;
+  color: #42b3f5;
+  margin-bottom: 2rem;
+}
+
+.container {
+  margin: 10px auto;
+  width: 74rem;
+}
+
+.Services-h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.cards-p {
+  font-family: "Roboto", sans-serif;
+  /* font-size: 1.3rem; */
+  margin-bottom: 2rem;
+  font-weight: normal;
+}
+
+.about-div {
+  margin: 2rem;
+}
+#About {
+  /* margin-left: 1rem; */
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 80vh;
+  margin-top: 6rem;
+}
+
+/*.about-div h1{
+      height: 100vh;
+  */
+.img {
+  width: 50%;
+  border-radius: 2rem;
+}
+.about-main-p {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #00adf3;
+  font-weight: bolder;
+}
+.about-h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.about-p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.work {
+  margin-top: 6rem;
+  margin-left: 0.3rem;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+
+  /* justify-content: center; */
+  align-items: center;
+}
+.work i {
+  color: #00adf3;
+  margin-top: 1.4rem;
+  margin-left: 0.4rem;
+}
+
+.work img {
+  /* margin-right: 2rem; */
+  width: 50%;
+  border-radius: 5%;
+}
+.main-work {
+  margin: 2rem;
+  /* display: flex; */
+}
+
+.work-h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.Work-p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.team {
+  height: 100vh;
+}
+.team h1 {
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 50%;
+  font-size: 3rem;
+  /* border-bottom: 1rem; */
+}
+
+.main-team {
+  display: flex;
+  justify-content: center;
+  /* margin: 1rem; */
+  /* width: 30%; */
+}
+.card-team {
+  margin: 4rem;
+
+  /* border: 1px solid black; */
+  height: 60vh;
+  width: 18%;
+}
+.card-team h3 {
+  /* margin-top: 1rem; */
+  font-family: "Noto Sans JP", sans-serif;
+
+  text-align: center;
+}
+.card-team img {
+  height: 55vh;
+  width: 100%;
+}
+
+.contact h1 {
+  margin-top: -4rem;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 3rem;
+}
+.contact {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 1rem; */
+}
+::placeholder {
+  font-size: 1.2rem;
+  padding-left: 2rem;
+}
+
+.form input {
+  /* height: 4rem; */
+  padding: 1rem;
+  margin: 0.7rem;
+  width: 50%;
+  border: none;
+  border: 4px solid #00adf3;
+  border-radius: 1.7rem;
+}
+
+footer {
+  /* height: 2rem; */
+  text-align: center;
+  margin-top: 2rem;
+  background-color: black;
+}
+
+.logo-footer {
+  color: white;
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+  padding: 2rem;
+}
